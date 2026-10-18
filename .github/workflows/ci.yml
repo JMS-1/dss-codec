@@ -32,4 +32,4 @@ jobs:
 
       - name: Artifacts
         run: |
-          dir /s target
+          dir \s target
