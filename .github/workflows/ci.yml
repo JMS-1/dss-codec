@@ -28,10 +28,8 @@ jobs:
           cache-workspaces: dss-codec -> target
 
       - name: Build
-        run: |
-          cargo build --locked
-          dir target
+        run: cargo build --locked
 
       - name: Artifacts
         run: |
-          dir
+          cmd /c "dir /s /b target"
