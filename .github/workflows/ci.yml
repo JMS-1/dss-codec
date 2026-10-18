@@ -28,7 +28,7 @@ jobs:
           cache-workspaces: dss-codec -> target
 
       - name: Build
-        run: cargo build --locked
+        run: cargo build --release
 
       - name: Artifacts
         run: |
