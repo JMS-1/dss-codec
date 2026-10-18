@@ -30,9 +30,6 @@ jobs:
       - name: Build
         run: cargo build --release
 
-      - name: Ups
-        run: cmd /c "dir /s /b target"
-
       - name: Artifact
         uses: actions/upload-artifact@v7
         with:
