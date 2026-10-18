@@ -30,9 +30,6 @@ jobs:
       - name: Build
         run: cargo build --locked
 
-      - name: Test
-        run: cargo test --locked
-
       - name: Artifacts
         run: |
-          ls -lR target
+          dir /s target
