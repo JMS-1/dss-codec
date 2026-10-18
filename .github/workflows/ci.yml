@@ -30,4 +30,8 @@ jobs:
       - name: Build
         run: |
           cargo build --locked
+          dir /s target
+
+      - name: Artifacts
+        run: |
           dir
