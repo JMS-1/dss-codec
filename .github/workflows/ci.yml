@@ -34,5 +34,5 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: Windows
-          path: target\release\dss-decode.exe
+          path: target/release/dss-decode.exe
           retention-days: 7
